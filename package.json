@@ -1,0 +1,25 @@
+{
+  "name": "learning-express",
+  "version": "0.0.1",
+  "description": "learning express applications cohort 7",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "get",
+    "post",
+    "delete",
+    "update"
+  ],
+  "author": "Uzor Oscar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5"
+  }
+}
