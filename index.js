@@ -10,7 +10,7 @@ const app = express()
 app.use(express.json()) // middleware that helps interpret infomations sent form frontend
 app.use(cookieParser())
 
-
+const PORT = process.env.PORT || 2000
 
 
 
@@ -33,7 +33,7 @@ app.use(routes)
 app.use(postRoutes)
 app.use(articleRoutes)
 
-const PORT = process.env.PORT || 5000
+
 
 
 /*This source code is an alternative for situations where you have 
